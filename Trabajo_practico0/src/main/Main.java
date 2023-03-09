@@ -6,7 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		
-		int i;
+		int i; //prueba de tiempo
 	}
 
 }
