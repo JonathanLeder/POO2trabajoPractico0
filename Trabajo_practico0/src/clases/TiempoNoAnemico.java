@@ -11,14 +11,14 @@ public class TiempoNoAnemico {
 		fecha = LocalDate.now();
 	}
 
-	public void FormatoCorto() {
+	public String FormatoCorto() {
 		DateTimeFormatter fechaCompleta = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-		System.out.println(fechaCompleta.format(fecha));
+		return fechaCompleta.format(fecha);
 	}
 
-	public void FormatoLargo() {
+	public String FormatoLargo() {
 		DateTimeFormatter fechaCompleta = DateTimeFormatter.ofPattern("EEEE dd MMMM uuuu");
-		System.out.println(fechaCompleta.format(fecha));
+		return fechaCompleta.format(fecha);// retornar la fecha en forma de string y cambiar los syso
 	}
 
 }

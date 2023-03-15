@@ -14,7 +14,7 @@ public class Main {
 		TiempoNoAnemico fecha = new TiempoNoAnemico();
 
 		System.out.println("\t----Forma no Anemica----");
-		fecha.FormatoCorto();
+		System.out.println(fecha.FormatoCorto());// Sacar los syso
 		fecha.FormatoLargo();
 
 		System.out.println("\t----Forma Anemica----");
