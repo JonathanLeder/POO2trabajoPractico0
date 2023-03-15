@@ -31,7 +31,7 @@ public class Main {
 		LocalDate hoy = LocalDate.now();
 		TiempoRecord tiempoRecord = new TiempoRecord(hoy);
 
-		System.out.println(tiempoRecord.getfecha());
+		System.out.println(tiempoRecord.fecha());
 
 	}
 
